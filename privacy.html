@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Nolan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #0A0A0A;
+      --fg: #E8E8E8;
+      --fg-dim: #6B6B6B;
+      --fg-faint: #3A3A3A;
+      --accent: #FFFFFF;
+      --serif: 'Newsreader', Georgia, serif;
+      --mono: 'IBM Plex Mono', monospace;
+    }
+
+    html { font-size: 18px; }
+
+    body {
+      background: var(--bg);
+      color: var(--fg-dim);
+      font-family: var(--serif);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    .page {
+      max-width: 520px;
+      margin: 0 auto;
+      padding: 80px 24px 120px;
+    }
+
+    /* --- Header --- */
+    .back {
+      display: inline-block;
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: var(--fg-faint);
+      text-decoration: none;
+      margin-bottom: 64px;
+      transition: color 0.3s ease;
+    }
+
+    .back:hover { color: var(--fg-dim); }
+
+    .page-title {
+      font-family: var(--serif);
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    .date {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.08em;
+      color: var(--fg-faint);
+      margin-bottom: 56px;
+    }
+
+    /* --- Content --- */
+    h2 {
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--fg);
+      margin-top: 48px;
+      margin-bottom: 16px;
+    }
+
+    h2:first-of-type { margin-top: 0; }
+
+    p {
+      font-size: 0.92rem;
+      line-height: 1.75;
+      margin-bottom: 12px;
+    }
+
+    /* --- Footer --- */
+    .legal-footer {
+      margin-top: 80px;
+      padding-top: 32px;
+      border-top: 1px solid var(--fg-faint);
+      display: flex;
+      gap: 24px;
+    }
+
+    .legal-footer a {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: var(--fg-faint);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .legal-footer a:hover { color: var(--fg-dim); }
+
+    @media (max-width: 480px) {
+      html { font-size: 16px; }
+      .page { padding: 48px 20px 80px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <a href="/" class="back">&larr; Nolan</a>
+
+    <h1 class="page-title">Privacy Policy</h1>
+    <p class="date">Last updated: March 2026</p>
+
+    <h2>What we collect</h2>
+    <p>Nothing personal. All your data (quit timer, progress, preferences) stays on your device. We don't see it, store it, or transmit it.</p>
+
+    <h2>Analytics</h2>
+    <p>We collect anonymous usage data (screens viewed, session length) to improve the app. This data cannot identify you. No names, emails, or device identifiers are collected.</p>
+
+    <h2>Subscriptions</h2>
+    <p>Purchases are processed entirely through Apple's App Store or Google Play. We never see your payment information.</p>
+
+    <h2>Health information</h2>
+    <p>Nolan does not collect or store health data. The app provides educational information about nicotine withdrawal and is not a medical device.</p>
+
+    <h2>Motion data</h2>
+    <p>Nolan uses your device's motion sensors to detect a shake gesture (for craving support). This data is processed on-device only and is never stored or transmitted.</p>
+
+    <h2>Third-party services</h2>
+    <p>We may use third-party services for analytics and subscription management. These services have their own privacy policies and do not receive personally identifiable information from Nolan.</p>
+
+    <h2>Children</h2>
+    <p>Nolan is not intended for anyone under 17. We do not knowingly collect information from children.</p>
+
+    <h2>Changes</h2>
+    <p>We may update this policy. Changes are reflected in the date above.</p>
+
+    <h2>Contact</h2>
+    <p>Questions? Reach us at hello@quitwithnolan.com.</p>
+
+    <div class="legal-footer">
+      <a href="/">Home</a>
+      <a href="/terms">Terms</a>
+    </div>
+  </div>
+</body>
+</html>
